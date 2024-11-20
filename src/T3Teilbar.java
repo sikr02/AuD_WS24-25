@@ -1,6 +1,5 @@
 public class T3Teilbar {
     public static void alleTeiler(int x) {
-        // Implement ...
         for (int i = 1; i <= x; i++) {
             if (teilbar(x, i)) {
                 System.out.println(i);
@@ -9,7 +8,6 @@ public class T3Teilbar {
     }
 
     public static boolean teilbar(int x, int y) {
-        // Implement ...
         return x % y == 0;
     }
 
