@@ -1,4 +1,4 @@
-// Klasse, die Obekte vom Typ Student bzw. AuDStudent verwendet
+// Klasse, die Objekte vom Typ Student bzw. AuDStudent verwendet
 public class Uni {
     // main-Methode gehoert nicht zum Objekt => static
     public static void main(String[] args) {
