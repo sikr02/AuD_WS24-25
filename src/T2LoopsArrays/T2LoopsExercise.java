@@ -1,3 +1,5 @@
+package T2LoopsArrays;
+
 public class T2LoopsExercise {
     public static void main(String[] args) {
         // Legen Sie ein int-Array mit drei Werten Ihrer Wahl an

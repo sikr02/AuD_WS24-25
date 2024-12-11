@@ -1,3 +1,5 @@
+package T3MethodsStrings;
+
 public class T3Repetitorium {
     // public static ... irgendwas mit int
     public static int quadrat(int a) {

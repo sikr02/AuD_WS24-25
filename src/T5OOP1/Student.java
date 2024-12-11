@@ -1,3 +1,5 @@
+package T5OOP1;
+
 // Oberklasse Student
 public class Student {
     // Attribute (Zustaende) => protected, damit sie auch in den abgeleiteten Klassen sichtbar sind

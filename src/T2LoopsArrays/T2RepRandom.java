@@ -1,3 +1,5 @@
+package T2LoopsArrays;
+
 public class T2RepRandom {
     public static void main(String[] args) {
         // Generieren Sie ein zufaelliges x, bis Sie ein x > 0.999 erzeugt haben

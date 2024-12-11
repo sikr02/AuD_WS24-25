@@ -1,3 +1,5 @@
+package T1Basics;
+
 public class Class {
 /* private static int switchMethod(int var) {
         int ergebnis = 0;

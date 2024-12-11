@@ -1,3 +1,5 @@
+package T5OOP1;
+
 // Klasse, die Objekte vom Typ Student bzw. AuDStudent verwendet
 public class Uni {
     // main-Methode gehoert nicht zum Objekt => static

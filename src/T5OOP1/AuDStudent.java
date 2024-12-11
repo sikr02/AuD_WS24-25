@@ -1,3 +1,5 @@
+package T5OOP1;
+
 // Unterklasse AuDStudent
 public class AuDStudent extends Student {
     private boolean hasComputer;

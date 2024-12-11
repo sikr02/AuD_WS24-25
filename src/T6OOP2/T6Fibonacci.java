@@ -1,3 +1,5 @@
+package T6OOP2;
+
 public class T6Fibonacci {
     public int mixColor(T6Fibonacci i) {
         System.out.println(i);

@@ -1,3 +1,5 @@
+package T1Basics;
+
 import java.util.Scanner;
 
 public class HelloWorld {

@@ -1,3 +1,5 @@
+package T3MethodsStrings;
+
 public class T3Teilbar {
     public static void alleTeiler(int x) {
         for (int i = 1; i <= x; i++) {
