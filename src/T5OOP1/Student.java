@@ -29,6 +29,19 @@ public class Student {
     // Ueberschreiben der toString-Methode von Object (Ausgabe bei System.out.println(...))
     @Override
     public String toString() {
-        return "Hallo, mein Name ist " + name + ", ich bin " + age + " Jahre alt und studiere " + studyField + ".";
+        return name + " (ALter: " + age + ", Studiengang: " + studyField + ")";
+        // return "Hallo, mein Name ist " + name + ", ich bin " + age + " Jahre alt und studiere " + studyField + ".";
+    }
+
+    // Ueberschreiben der equals-Methode von Object (Vergleich zweier Objekte)
+    @Override
+    public boolean equals(Object o) {
+        if (o instanceof Student) { // instanceof ueberprueft auf Klassenzugehoerigkeit
+            return (this.name.equals(((Student) o).name) &&
+                    (this.age == ((Student) o).age)) &&
+                    (this.studyField.equals(((Student) o).studyField));
+        } else {
+            return false;
+        }
     }
 }
